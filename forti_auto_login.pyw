@@ -30,7 +30,7 @@ def get_credentials():
 
     root = tk.Tk()
     root.title("BITS WIFI Login")
-    root.iconbitmap(os.path.join(BASE_DIR, "_internal", "app.ico"))
+    root.iconbitmap(os.path.join(BASE_DIR, "_internal", "app.ico") if getattr(sys,'frozen',False) else os.path.join(BASE_DIR,"app.ico"))
     root.resizable(False, False)
 
     root.geometry("320x190")
