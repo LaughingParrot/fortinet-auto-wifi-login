@@ -1,0 +1,13 @@
+#python cache
+__pycache__/
+#build files created through pyinstaller
+build/
+#final executables after pyinstaller
+dist/
+#the virtual environment
+forti_env/
+*.spec
+#cache files which might remain outside
+*.pyc
+#temp file as code runner runs on selected statements
+tempCodeRunnerFile.py
