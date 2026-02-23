@@ -65,6 +65,7 @@ python LoginScheduler.py
 and
 ```bash
 pythonw forti_auto_login.pyw
+```
 
 ## Notes
 1) The application till now is not tested with any VPN and ensure that while using it.
